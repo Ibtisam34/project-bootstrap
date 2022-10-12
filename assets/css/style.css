@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.welcome-area {
+  height: 798px;
+  background: url('../images/img/bg.svg');
+  background-repeat: no-repeat;
+  background-position: 100% 120%;
+}
+
+.welcome-desc {
+  width: 566px;
+  height: 123px;
+  
+}
+
+
+@media screen and (min-width: 768px) {
+  #navbarNav {
+    margin-left: 757px;
+  }
+}
