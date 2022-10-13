@@ -21,15 +21,12 @@ li {
 .welcome-desc {
   width: 566px;
   height: 123px;
-  
 }
 
 .title-area {
   margin-left: 30px;
   margin-top: 70px;
 }
-
-
 
 /* Projects Area CSS */
 .underline-image {
@@ -63,23 +60,22 @@ li {
   margin-top: 24px;
 }
 
-
 .aboutme {
   width: 566px;
   height: 148px;
 }
 
 .aboutme-title {
-  color: #F55800;
+  color: #f55800;
 }
 
 .resume-btn {
-  background: #F55800;
+  background: #f55800;
   border: none;
 }
 
 .resume-btn:hover {
-  border: 1px solid #F55800;
+  border: 1px solid #f55800;
   background-color: #fff5e1;
   color: #F55800;
 }
@@ -100,17 +96,13 @@ li {
 
 .aboutsection {
   padding: 130px 24px 120px 24px;
-
   height: 400px;
   width: 100%;
-  /* background-position: 92% 28%; */
 }
 
 .tech-stack {
   margin-left: 142px;
 }
-
-
 
 @media screen and (min-width: 768px) {
   #navbarNav {
