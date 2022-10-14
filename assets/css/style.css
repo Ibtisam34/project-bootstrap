@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Globals */
+li {
+  list-style: none;
+}
+
+/* Welcome Area CSS */
+.welcome-area {
+  height: 798px;
+  background: url('../images/img/bg.svg');
+  background-repeat: no-repeat;
+  background-position: 100% 120%;
+}
+
+.welcome-desc {
+  width: 566px;
+  height: 123px;
+}
+
+.title-area {
+  margin-left: 30px;
+  margin-top: 70px;
+}
+
+/* Projects Area CSS */
+.underline-image {
+  margin-left: 24px;
+}
+
+.horizontal-img {
+  margin-left: 4px;
+}
+
+.project-card {
+  width: 369px;
+  height: 435px;
+  background: linear-gradient(179.35deg, rgba(38, 38, 38, 0) 0.85%, rgba(38, 38, 38, 0.9) 84%), url('../images/img/project2.png');
+}
+
+.project-btn {
+  display: none;
+}
+
+.project-card .tech-item-btn {
+  background: rgba(255, 255, 255, 0.24);
+  color: white;
+}
+
+.card-title {
+  margin-top: 178px;
+}
+
+.project-card .tech-list {
+  margin-top: 24px;
+}
+
+.aboutme {
+  width: 566px;
+  height: 148px;
+}
+
+.aboutme-title {
+  color: #f55800;
+}
+
+.resume-btn {
+  background: #f55800;
+  border: none;
+}
+
+.resume-btn:hover {
+  border: 1px solid #f55800;
+  background-color: #fff5e1;
+  color: #f55800;
+}
+
+.aboutme-desc {
+  margin-top: 400px !important;
+  margin-left: 142px;
+  padding: 2pc;
+  background: url('../svg/aboutme.svg');
+  background-repeat: no-repeat;
+  background-position: 120% 10%;
+}
+
+.about-divider {
+  margin-left: 142px;
+  margin-top: 139px;
+}
+
+.aboutsection {
+  padding: 130px 24px 120px 24px;
+  height: 400px;
+  width: 100%;
+}
+
+.tech-stack {
+  margin-left: 142px;
+}
+
+@media screen and (min-width: 768px) {
+  #navbarNav {
+    margin-left: 757px;
+  }
+}
